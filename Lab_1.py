@@ -6,4 +6,7 @@ favorite_number = 5
 #Send a screenshot of your completed code to your instructor chat channel.
 
 import random
-favorite_number=
+random_number=random.randrange(0,10)
+
+result=random_number - favorite_number
+print(result)
